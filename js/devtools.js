@@ -32,7 +32,7 @@ chrome.devtools.network.onRequestFinished.addListener(function (request) {
     var panelURL = '/pages/index.html';
     for (var x = 0; x < responseHeaders.length; x++) {
         var header = responseHeaders[x];
-        if (header.name === 'X-Debug-Token-Link') {
+        if (header.name.toLowerCase() === 'x-debug-token-link') {
             panelURL = header.value;
             headerFound = true;
             break;
