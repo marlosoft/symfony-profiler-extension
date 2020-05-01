@@ -1,6 +1,6 @@
 {
   "name": "Symfony Profiler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Symfony Profiler in DevTools panel",
   "devtools_page": "pages/devtools.html",
