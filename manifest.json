@@ -1,6 +1,6 @@
 {
   "name": "Symfony Profiler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 2,
   "description": "Symfony Profiler in DevTools panel",
   "devtools_page": "pages/devtools.html",
@@ -8,8 +8,5 @@
     "32": "/img/symfony01.png",
     "64": "/img/symfony01.png",
     "128": "/img/symfony01.png"
-  },
-  "permissions": [
-    "activeTab"
-  ]
+  }
 }
